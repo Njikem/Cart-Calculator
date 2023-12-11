@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart/calculator</title>
+
+    <style>
+        .calculator{
+            margin-top: 60px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!---Add To Cart-->
+    <button onclick="
+    cartQuantity = cartQuantity;
+    console.log(`cart Quantity: ${cartQuantity}`);
+        ">Show Quantity</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity + 1;
+    console.log(`cart Quantity: ${cartQuantity}`);
+        ">Add to cart</button>
+
+<button onclick="
+
+cartQuantity = cartQuantity + 4;
+console.log(`cart Quantity: ${cartQuantity}`);
+">Add +4</button>
+
+
+<button onclick="
+cartQuantity = cartQuantity + 5;
+console.log(`cart Quantity: ${cartQuantity}`);
+">Add +5</button>
+    
+    
+ <button onclick="
+ cartQuantity = cartQuantity -1;
+ console.log(`cart Quantity: ${cartQuantity}`);
+ ">Remove from cart</button>   
+
+ <button onclick="
+
+ cartQuantity = cartQuantity -2;
+ console.log(`cart Quantity: ${cartQuantity}`);
+ ">Add -2</button>
+
+
+ <button onclick="
+ cartQuantity = cartQuantity -3;
+ console.log(`cart Quantity: ${cartQuantity}`);
+ ">Add -3</button>
+    
+    
+
+
+<!--Building Calculator-->
+
+<div class="calculator">
+<p>
+<button onclick="
+calculation +='1';
+console.log(calculation);
+    ">1</button>
+
+<button onclick="
+calculation +='2';
+console.log(calculation);
+">2</button>
+
+<button onclick="
+calculation +='3';
+console.log(calculation);
+">3</button>
+</p>
+
+<p>
+
+    
+ <button onclick="
+ calculation +='4';
+console.log(calculation);
+    ">4</button>
+    
+    <button onclick="
+    calculation +='5';
+    console.log(calculation);
+        ">5</button>
+    
+    <button onclick="
+    calculation +='6';
+    console.log(calculation);
+        ">6</button>
+
+</p>
+
+<p>
+    <button onclick="
+    calculation +='7';
+    console.log(calculation);
+        ">7</button>
+
+   <button onclick="
+     calculation +='8';
+    console.log(calculation);
+    ">8</button>
+
+    <button onclick="
+    calculation +='9';
+    console.log(calculation);
+        ">9</button>
+
+        </p>
+
+        <P>
+<button onclick="
+calculation +='0';
+console.log(calculation);
+ ">0</button>
+
+
+    <button onclick="
+    calculation += ' + ';
+    console.log(calculation);
+        ">+</button>
+
+   <button onclick="
+   calculation +='*';
+   console.log(calculation);
+    ">*</button>.
+        </P>
+
+<button onclick="
+calculation +='.';
+console.log(calculation);
+ ">.</button>
+
+<button onclick="
+calculation +='/';
+console.log(calculation);
+ ">/</button>
+    
+
+<button onclick="
+calculation = eval(calculation);
+console.log(calculation);
+">=</button>
+
+
+<button onclick="
+   calculation +='';
+   console.log(calculation);
+    ">clear</button>
+</div>
+
+
+
+
+    
+    <script>
+
+let name = 'Maureen';
+    console.log(`my name is: ${name}`);
+
+
+    
+    let cartQuantity = 0;
+
+
+    let calculation = "";
+
+    
+
+ 
+
+    </script>
+
+
+<script src="/js/app.js"></script>
+
+
+    
+</body>
+</html>
